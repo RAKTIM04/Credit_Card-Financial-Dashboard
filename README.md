@@ -20,21 +20,7 @@ SQL for extraction and transformation
 DAX for analytics and measures
 Excel/CSV (if dataset was provided in these formats)
 
-Repository Structure:
-The repository contains:
-- The Power BI report file at the root level (Credit_Card_Financial_Dashboard.pbix)
-- A Data folder containing the dataset or SQL/CSV exports
-- An Images folder for storing preview screenshots
-- A README file documenting the project
 
-Example structure:
-Credit_Card-Financial-Dashboard/
-    Credit_Card_Financial_Dashboard.pbix
-    README.md
-    Data/
-        transactions_dataset.csv
-    Images/
-        dashboard_preview.png
 
 Sample DAX Measures:
 Total Spend = SUM(Transactions[Amount])
